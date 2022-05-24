@@ -6,3 +6,24 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+
+body {
+  background-image: linear-gradient(#134d71,  #ffffff);
+  background-size: 100%;
+  margin: 0px;
+}
+
+.selection-box {
+  width: 500px;
+  height: 200px;
+}
+
+.bell-box {
+  width: 500px;
+  height: 200px;
+}
+
+.bell {
+  height: 150px;
+  width: 150px;
+}
