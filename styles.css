@@ -51,13 +51,14 @@ body {
   width: 50px;
 }
 
-.receive-message {
+button {
   background-color: #134d71;
   color: #ffffff;
 }
 
 .inspiration-box {
   display: flex;
+  flex-direction: column;
   align-content: center;
   align-items: center;
   justify-content: space-around;
