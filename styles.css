@@ -8,22 +8,49 @@ black - #000000;
 */
 
 body {
-  background-image: linear-gradient(#134d71,  #ffffff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(#134d71,  #f7e4bf);
   background-size: 100%;
   margin: 0px;
+  height: 100vh;
+}
+
+.text {
+  font-family: 'Quicksand', sans-serif;
+  color: #ffffff;
 }
 
 .selection-box {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
   width: 500px;
-  height: 200px;
+  height: 75px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  font-family: 'Snell Roundhand', cursive;
 }
 
 .bell-box {
-  width: 500px;
-  height: 200px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 800px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 4px;
 }
 
 .bell {
-  height: 150px;
-  width: 150px;
+  height: 50px;
+  width: 50px;
+}
+
+.receive-message {
+  background-color: #134d71;
+  color: #ffffff;
 }
