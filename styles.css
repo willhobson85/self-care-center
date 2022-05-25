@@ -32,7 +32,8 @@ body {
   height: 75px;
   background-color: #ffffff;
   border-radius: 4px;
-  font-family: 'Snell Roundhand', cursive;
+  font-family: 'Quicksand', sans-serif;
+  font-style: italic;
 }
 
 .bell-box {
