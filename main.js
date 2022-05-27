@@ -49,7 +49,6 @@ function getRandomMessage() {
   for (var i = 0; i < typeOfMessage.length; i++) {
     if (typeOfMessage[i].checked) {
       var receivedMessage = getRandomIndex(typeOfMessage[i].value);
-      console.log(typeOfMessage[i].value);
       if (typeOfMessage[i].value === 'mantra') {
         return mantras[receivedMessage];
       }
@@ -62,7 +61,6 @@ function showMessage() {
   var selected = document.querySelector('input[type="radio"]:checked');
   bellBox.classList.add('hidden');
   inspoBox.classList.remove('hidden');
-  console.log(selected);
   messageReturned.innerText = getRandomMessage(mantras);
 }
 
